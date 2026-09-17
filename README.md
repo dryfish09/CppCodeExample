@@ -12,12 +12,12 @@ You should read from `01` to the biggest number on its folder.
 ### Can you trust this?
 All codes in here are **safe, verified by C++ senior**. You can trust it, but **it CAN'T replace official docs**.
 ### Contributing:
-Contributing are welcome! You can send me **pull request** or **open an issue** to:
+Contributions are welcome! You can send me **pull request** or **open an issue** to:
 - Requesting add/fix some examples.
 - Fix/add more example to make this repository more useful and help more people who are new to C++.
 
 #### Code style:
-Code style in all files **should** be same, here is some stuff you need to follow before send me a **pull request**:
+Code style in all files **should** be same, here is some stuff you need to follow before sending me a **pull request**:
 - Spacing: 4 Spaces or 1 Tab.
 - Code convention: variables, functions: `camelCase`, classes, structs: `PascalCase`.
 - Function, `class`, `struct` braces must be:
@@ -35,8 +35,8 @@ void getInput()
 }
 ```
 
-- Commit messaged, comments, variables, classes, etc name must be in English, readable, clear.
-There arr some examples about **good and bad** commit message:
+- Commit messages, comments, variables, classes, etc name must be in English, readable, clear.
+There are some examples about **good and bad** commit messages:
 **Good commit message**
 ```text
 feat: add 01_map.cpp to teach about std::map.
@@ -49,7 +49,7 @@ Fix typos
 Just `asd`, `idk`, `stuff`,...
   
 - Should comment (`//` or `/**/`) to explain new stuff in lesson.
-### Requirement:
+### Requirements:
 - **Compiler**: GCC 14+ / Clang 18+ / or any compilers/IDE supports C++ 17 or later, C++ 23 or later (optional).
 - **C++ Standard**: C++17 or later (some files use C++23)
 - **Build**: `g++ -std=c++23 filename.cpp -o output` (For GCC only, if you use Clang, use Clang command instead)
