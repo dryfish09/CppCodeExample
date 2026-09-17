@@ -37,6 +37,7 @@ void getInput()
 
 - Commit messages, comments, variables, classes, etc name must be in English, readable, clear.
 There are some examples about **good and bad** commit messages:
+
 **Good commit message**
 ```text
 feat: add 01_map.cpp to teach about std::map.
