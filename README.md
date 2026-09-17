@@ -39,6 +39,7 @@ void getInput()
 There are some examples about **good and bad** commit messages:
 
 **Good commit message**
+
 ```text
 feat: add 01_map.cpp to teach about std::map.
 ```
@@ -47,11 +48,14 @@ or:
 Fix typos
 ```
 **Bad commit message**
+
 Just `asd`, `idk`, `stuff`,...
   
 - Should comment (`//` or `/**/`) to explain new stuff in lesson.
+
 ### Requirements:
-- **Compiler**: GCC 14+ / Clang 18+ / or any compilers/IDE supports C++ 17 or later, C++ 23 or later (optional).
+
+- **Compiler**: GCC 14+ / Clang 18+ / or any compiler/IDE supports C++ 17 or later, C++ 23 or later (optional).
 - **C++ Standard**: C++17 or later (some files use C++23)
 - **Build**: `g++ -std=c++23 filename.cpp -o output` (For GCC only, if you use Clang, use Clang command instead)
 
