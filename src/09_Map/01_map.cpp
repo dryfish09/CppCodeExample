@@ -5,7 +5,7 @@
 
 int main() {
     std::map<std::string, int> stuffInMyBag {
-        "books", 3,
-        "pen", 1,
-    };
+        {"books", 3};
+        {"pen", 1};
+    }
 }
