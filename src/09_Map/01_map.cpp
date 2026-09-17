@@ -1,3 +1,7 @@
+/*
+    Author: DryFish;
+    License: The Unlicense;
+*/
 #include <iostream>
 #include <string>
 // std::map is in <map> header
