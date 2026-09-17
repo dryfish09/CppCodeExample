@@ -16,7 +16,7 @@ int main() {
     std::cout <<countsOfStuff.at("books");
     // add item:
     countsOfStuff.emplace("pencil", 2);
-    countsOfStuf.emplace("asd", 10);
+    countsOfStuff.emplace("asd", 10);
     // delete item:
     countsOfStuff.erase("asd");
     return 0;
