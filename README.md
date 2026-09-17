@@ -15,10 +15,32 @@ All codes in here are **safe, verified by C++ senior**. You can trust it, but **
 Contributing are welcome! You can send me **pull request** or **open an issue** to:
 - Requesting add/fix some examples.
 - Fix/add more example to make this repository more useful and help more people who new to C++.
+
+#### Code style:
+Code style in all file **should** be same, here is some stuff you need to follow befor send me a **pull request**:
+- Spacing: 4 Spaces or 1 Tab.
+- Code convention: variables, function: `camelCase`, class: `PascalCase`.
+- Function, `class`, `struct` must be:
+```cpp
+void getInput() {
+    // code here
+}
+```
+
+Not this:
+```cpp
+void getInput()
+{
+    // stuff
+}
+```
+
+- Commit message, comment, variable, class, etc name must be in English, readable, clear.
+- Should comment (`//` or `/**/`) to explain new stuff in lesson.
 ### Requirement:
-- **Compiler**: GCC 14+ / Clang 18+ / MSVC 2026 (for file that contains `println`, `print` or `#include <print>`), for normal use, GCC 12/13, MSVC 2024/2025, Clang 16/17 is enough.
+- **Compiler**: GCC 14+ / Clang 18+ / Visual Studio 2026 (for file that contains `println`, `print` or `#include <print>`), for normal use, GCC 12/13, MSVC 2024/2025, Clang 16/17 is enough.
 - **C++ Standard**: C++17 or later (some files use C++23)
-- **Build**: `g++ -std=c++23 filename.cpp -o output`
+- **Build**: `g++ -std=c++23 filename.cpp -o output` (For GCC only, ic you use Clang, use Clang command instead)
 
 ### License:
 This repository is a **public domain** under The Unlicense.
