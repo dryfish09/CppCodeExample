@@ -14,13 +14,13 @@ All codes in here are **safe, verified by C++ senior**. You can trust it, but **
 ### Contributing:
 Contributing are welcome! You can send me **pull request** or **open an issue** to:
 - Requesting add/fix some examples.
-- Fix/add more example to make this repository more useful and help more people who new to C++.
+- Fix/add more example to make this repository more useful and help more people who are new to C++.
 
 #### Code style:
-Code style in all file **should** be same, here is some stuff you need to follow befor send me a **pull request**:
+Code style in all files **should** be same, here is some stuff you need to follow before send me a **pull request**:
 - Spacing: 4 Spaces or 1 Tab.
-- Code convention: variables, function: `camelCase`, class: `PascalCase`.
-- Function, `class`, `struct` must be:
+- Code convention: variables, functions: `camelCase`, classes, structs: `PascalCase`.
+- Function, `class`, `struct` braces must be:
 ```cpp
 void getInput() {
     // code here
@@ -35,8 +35,8 @@ void getInput()
 }
 ```
 
-- Commit message, comment, variable, class, etc name must be in English, readable, clear.
-There're some example about **good and bad** commit message:
+- Commit messaged, comments, variables, classes, etc name must be in English, readable, clear.
+There arr some examples about **good and bad** commit message:
 **Good commit message**
 ```text
 feat: add 01_map.cpp to teach about std::map.
