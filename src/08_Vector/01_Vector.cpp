@@ -11,5 +11,7 @@ int main() {
     numbers.pop_back(); // remove last item
     // access to it (like arrays!)
     std::cout << numbers[0] << std::endl;
+    // we also have safer way, to prevent Undefined Behavor (UB)
+    std::cout << numbers.at[1] << std::endl;
     return 0;
 }
