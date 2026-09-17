@@ -36,9 +36,21 @@ void getInput()
 ```
 
 - Commit message, comment, variable, class, etc name must be in English, readable, clear.
+There're some example about **good and bad** commit message:
+**Good commit message**
+```text
+feat: add 01_map.cpp to teach about std::map.
+```
+or:
+```text
+Fix typos
+```
+**Bad commit message**
+Just `asd`, `idk`, `stuff`,...
+  
 - Should comment (`//` or `/**/`) to explain new stuff in lesson.
 ### Requirement:
-- **Compiler**: GCC 14+ / Clang 18+ / Visual Studio 2026 (for file that contains `println`, `print` or `#include <print>`), for normal use, GCC 12/13, MSVC 2024/2025, Clang 16/17 is enough.
+- **Compiler**: GCC 14+ / Clang 18+ / Latest MSVC,... (for file that contains `println`, `print` or `#include <print>`), for normal use, GCC 12/13, Visual Studio 2019, 2020, Clang 16/17 is enough.
 - **C++ Standard**: C++17 or later (some files use C++23)
 - **Build**: `g++ -std=c++23 filename.cpp -o output` (For GCC only, ic you use Clang, use Clang command instead)
 
