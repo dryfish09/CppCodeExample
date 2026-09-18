@@ -16,7 +16,7 @@ enum class Status : int {
     OK = 200,
     NOT_FOUND = 404
 };
-// to change enum into string, you need to write a "parser"
+// to change enum into string, we need to write a "parser"
 std::string enumToString (Color c) {
         
     switch (c) {
