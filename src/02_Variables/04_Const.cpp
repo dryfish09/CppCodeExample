@@ -12,6 +12,7 @@ int main() {
     // if you try to change it, compiler will be angry and throw an error.
     // print (use) it:
     std::cout << "3 first digits of pi is: " << pi << std::endl;
+    std::cout << "num1 = " << num1 << "and num2 = num1 * 2 + 5 = " << num2 << std::endl;
     return 0;
 }
 /*
