@@ -8,8 +8,8 @@ int main() {
     // you can add bool yourBool = true here
     while (true) { // you can replace 'true' with yourBool. Like: while (yourBool)
         // code body here, write anything you want.
-        int score = 999;
-        if (score == 999) {
+        int score = 10;
+        if (score >=8 && score < 11) {
             std::cout << "you have the biggest score, excellent!" << std::endl;
             break; // exit loop, if you don't have, program will never ends.
         } else {
