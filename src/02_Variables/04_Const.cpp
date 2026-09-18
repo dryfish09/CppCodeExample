@@ -26,7 +26,7 @@ work with functions (will learn later): no
 constexpr:
 
 Meaning: Values known at compile-time
-Imitialization: Must be compile time
+Initialization: Must be compile time
 Evaluated: at compiler time
 Work with functions: yes!
 */
