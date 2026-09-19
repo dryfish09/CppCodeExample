@@ -1,4 +1,4 @@
-# Reporting Guidelines for CppCodeExample
+# Reporting Guidelines for C++ Code Example
 
 Thank you for helping keep this project a safe, welcoming, and useful place to learn C++. This document explains **what** you should report, **how** to report it, and **what happens** after you do.
 
