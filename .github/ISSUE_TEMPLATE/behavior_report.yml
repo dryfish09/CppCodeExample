@@ -1,0 +1,73 @@
+name: 🚨 Code of Conduct / Behavior Report
+description: Report harassment, spam, or other disruptive behavior.
+title: "[Conduct]: "
+labels: ["conduct", "confidential"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ **Before you continue:** If this report involves you personally and
+        the situation is heated, please consider contacting the maintainer
+        **privately** (see the Reporting Guidelines, Section 4.2) instead of
+        opening a public issue.
+
+        Do **not** include private information (emails, real names, addresses,
+        private chats) unless strictly necessary.
+
+  - type: textarea
+    id: where
+    attributes:
+      label: Where and when did it happen?
+      description: Issue number, PR, commit SHA, or link, and the date.
+      placeholder: "e.g. Issue #42, 2026-09-18"
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Describe the behavior factually. Quote messages accurately if relevant.
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Links or screenshots (avoid sharing private data).
+    validations:
+      required: false
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of issue
+      options:
+        - Harassment / personal attack
+        - Discrimination
+        - Spam / advertising
+        - Trolling / bad-faith disruption
+        - Privacy violation (doxxing)
+        - Threats of violence / self-harm
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: prior
+    attributes:
+      label: Have you tried to resolve this directly?
+      description: Optional — helps us understand the situation.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I am reporting in good faith, not to harass or retaliate.
+          required: true
+        - label: I understand this report may be handled confidentially.
+          required: true
