@@ -1,0 +1,95 @@
+name: 🐛 Bug Report
+description: Report incorrect, unsafe, or non-compiling code in a lesson.
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve CppCodeExample!
+        Please fill in as much detail as you can. Reports that are specific,
+        factual, and reproducible are the most useful.
+
+        ⚠️ Do **not** report security vulnerabilities here — see the Reporting Guidelines.
+
+  - type: input
+    id: file
+    attributes:
+      label: File and line
+      description: Which file (and line, if known) is affected?
+      placeholder: "e.g. src/03_Loops/03_while.cpp:42"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What is wrong?
+      description: A clear, factual description of the problem.
+      placeholder: "The example reads past the end of the array when n == 0."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected vs. actual behavior
+      description: What should happen, and what actually happens?
+    validations:
+      required: false
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: How can someone else verify this?
+      placeholder: |
+        1. Compile with `g++ -std=c++23 filename.cpp -o output`
+        2. Run `./output`
+        3. Observe ...
+    validations:
+      required: false
+
+  - type: input
+    id: compiler
+    attributes:
+      label: Compiler and standard
+      placeholder: "e.g. g++ 14.2, -std=c++23"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Incorrect / misleading example
+        - Does not compile
+        - Unsafe code (UB, leaks, races)
+        - Outdated / non-idiomatic C++
+        - Broken link or missing file
+        - License / attribution
+        - Style / consistency
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested_fix
+    attributes:
+      label: Suggested fix (optional)
+      description: If you have an idea, share it here — or open a PR!
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I have searched existing issues to avoid duplicates.
+          required: true
+        - label: I am reporting in good faith and have not exaggerated the problem.
+          required: true
+        - label: This is not a security vulnerability (those go to the maintainer privately).
+          required: true
