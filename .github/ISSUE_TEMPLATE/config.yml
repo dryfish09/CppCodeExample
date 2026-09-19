@@ -6,3 +6,12 @@ contact_links:
   - name: Question / Help
     url: https://github.com/dryfish09/CppCodeExample/discussions
     about: Ask questions about the lessons or C++ here.
+  - name: 🐛 Bug Report
+    url: https://github.com/dryfish09/CppCodeExample/issues/new?template=bug_report.yml
+    about: Report incorrect, unsafe, or non-compiling code in a lesson.
+  - name: 🚨 Code of Conduct / Behavior Report
+    url: https://github.com/dryfish09/CppCodeExample/issues/new?template=behavior_report.yml
+    about: Report harassment, spam, or other disruptive behavior.
+  - name: 💡 Feature / Lesson Request
+    url: https://github.com/dryfish09/CppCodeExample/issues/new?template=feature_request.yml
+    about: Suggest a new lesson, example, or improvement.
