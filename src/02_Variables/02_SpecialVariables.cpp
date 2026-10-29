@@ -12,6 +12,6 @@ int main() {
     double moneyInCreditCard = 36.67; // `double` does not require a suffix after the value.
     std::cout << "Money in my credit card is " << moneyInCreditCard << std::endl; // When you don't use `using namespace std`, you must include the `std::` prefix so the compiler knows which function from which namespace you intend to use.
     long double veryBigNumber = 36.67676767673667L; // requires L suffix
-    std::cout << "number in my mint: " << veryBigNumber << std::endl;
+    std::cout << "number in my mind: " << veryBigNumber << std::endl;
     return 0;
 }
